@@ -1,0 +1,13 @@
+# Entorns virtuals
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Fitxers temporals
+.DS_Store
+*.log
+
+# Dades privades o grans
+data/
+img/
