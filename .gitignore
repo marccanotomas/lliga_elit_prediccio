@@ -7,7 +7,3 @@ __pycache__/
 # Fitxers temporals
 .DS_Store
 *.log
-
-# Dades privades o grans
-data/
-img/
