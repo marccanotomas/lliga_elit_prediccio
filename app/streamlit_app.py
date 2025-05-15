@@ -1,11 +1,14 @@
 import streamlit as st
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pandas as pd
 from predictor.data_loader import DataLoader
 from predictor.simulator import MonteCarloSimulator
 from predictor.league_rules import LeagueRules
 import plotly.express as px
 import io
-import os
 
 # --- Rutes imatges ---
 ESCUT_VALLS = "img/escut_valls.png"
