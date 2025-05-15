@@ -1,11 +1,5 @@
-
----
-
-## 🧾 `requirements.txt`
-
-```txt
 streamlit>=1.25
 pandas>=1.5
 numpy>=1.24
 plotly>=5.15
-openpyxl  # Per exportació Excel
+openpyxl
